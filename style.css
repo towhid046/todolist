@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Inter:wght@300;500;600;700;800&display=swap');
+body{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Inter', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btn{
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.cursor-none{
+    pointer-events: none;
+}
+.todo-heading{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.todo-heading svg{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    color:#FF5845;
+    fill: #FF5845;
+}
+
+.todoFormClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFEFEF;
+    width: 450px;
+    border-radius: 33px;
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.todoFormInputClass{
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 3px 10px;
+    background: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.todoAddBtn{
+    font-size: 18px;
+    color: #fff;
+    background: #FF5845;
+    padding: 12px 32px;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border: none;
+    outline: none;
+    border-radius: 33px;
+}
+
+.todo-list-area ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    max-width: 440px;
+}
+.todoListTitle{
+    width: 80%;
+}
+.completeBtn{
+    outline: none;
+    border: 1px solid #9b9898;
+    width: 22px;
+    background: #fff;
+    height: 22px;
+    border-radius: 3px;
+    position: relative;
+} 
+.completedBtn{
+    outline: none;
+    border: 1px solid #EFEFEF;
+    width: 22px;
+    background: #EFEFEF;
+    height: 22px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.deleteBtn{
+    border: none;
+    outline: none;
+    background: none;
+}
+.deleteBtn svg{
+    width: 24px;
+    color: #9b9898;
+}
